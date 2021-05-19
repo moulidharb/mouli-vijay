@@ -7,7 +7,7 @@ import pandas as pd
 
 # Importing the datasets
 
-datasets = pd.read_csv('Social_Network_Ads.csv')
+datasets = pd.read_csv('Dataset_Svm.csv')
 X = datasets.iloc[:, [2,3]].values
 Y = datasets.iloc[:, 4].values
 
